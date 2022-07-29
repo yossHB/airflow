@@ -1314,3 +1314,234 @@
 [2022-07-29 11:59:15,485] {logging_mixin.py:115} INFO - [2022-07-29 11:59:15,485] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-07-29 11:59:15,519] {logging_mixin.py:115} INFO - [2022-07-29 11:59:15,519] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
 [2022-07-29 11:59:15,536] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.122 seconds
+[2022-07-29 11:59:45,710] {processor.py:153} INFO - Started process (PID=9111) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 11:59:45,711] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 11:59:45,711] {logging_mixin.py:115} INFO - [2022-07-29 11:59:45,711] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 11:59:45,748] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 11:59:45,795] {logging_mixin.py:115} INFO - [2022-07-29 11:59:45,793] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:59:45,834] {logging_mixin.py:115} INFO - [2022-07-29 11:59:45,834] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 11:59:45,852] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.145 seconds
+[2022-07-29 12:00:15,944] {processor.py:153} INFO - Started process (PID=9268) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:00:15,945] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:00:15,945] {logging_mixin.py:115} INFO - [2022-07-29 12:00:15,945] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:00:15,979] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:00:16,073] {logging_mixin.py:115} INFO - [2022-07-29 12:00:16,072] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:00:16,100] {logging_mixin.py:115} INFO - [2022-07-29 12:00:16,100] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:00:16,120] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.179 seconds
+[2022-07-29 12:00:46,304] {processor.py:153} INFO - Started process (PID=9292) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:00:46,305] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:00:46,306] {logging_mixin.py:115} INFO - [2022-07-29 12:00:46,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:00:46,330] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:00:46,409] {logging_mixin.py:115} INFO - [2022-07-29 12:00:46,408] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:00:46,525] {logging_mixin.py:115} INFO - [2022-07-29 12:00:46,525] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:00:46,540] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.240 seconds
+[2022-07-29 12:01:16,743] {processor.py:153} INFO - Started process (PID=9323) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:01:16,744] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:01:16,745] {logging_mixin.py:115} INFO - [2022-07-29 12:01:16,745] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:01:16,767] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:01:16,803] {logging_mixin.py:115} INFO - [2022-07-29 12:01:16,802] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:01:16,832] {logging_mixin.py:115} INFO - [2022-07-29 12:01:16,831] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:01:16,847] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.107 seconds
+[2022-07-29 12:01:47,115] {processor.py:153} INFO - Started process (PID=9346) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:01:47,115] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:01:47,115] {logging_mixin.py:115} INFO - [2022-07-29 12:01:47,115] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:01:47,133] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:01:47,202] {logging_mixin.py:115} INFO - [2022-07-29 12:01:47,201] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:01:47,338] {logging_mixin.py:115} INFO - [2022-07-29 12:01:47,338] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:01:47,358] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.245 seconds
+[2022-07-29 12:02:17,546] {processor.py:153} INFO - Started process (PID=9378) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:02:17,548] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:02:17,548] {logging_mixin.py:115} INFO - [2022-07-29 12:02:17,548] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:02:17,576] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:02:17,653] {logging_mixin.py:115} INFO - [2022-07-29 12:02:17,653] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:02:17,784] {logging_mixin.py:115} INFO - [2022-07-29 12:02:17,784] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:02:17,800] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.258 seconds
+[2022-07-29 12:02:48,046] {processor.py:153} INFO - Started process (PID=9410) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:02:48,047] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:02:48,048] {logging_mixin.py:115} INFO - [2022-07-29 12:02:48,048] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:02:48,081] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:02:48,117] {logging_mixin.py:115} INFO - [2022-07-29 12:02:48,116] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:02:48,145] {logging_mixin.py:115} INFO - [2022-07-29 12:02:48,145] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:02:48,160] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.117 seconds
+[2022-07-29 12:03:18,340] {processor.py:153} INFO - Started process (PID=9433) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:03:18,342] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:03:18,342] {logging_mixin.py:115} INFO - [2022-07-29 12:03:18,342] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:03:18,368] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:03:18,446] {logging_mixin.py:115} INFO - [2022-07-29 12:03:18,445] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:03:18,567] {logging_mixin.py:115} INFO - [2022-07-29 12:03:18,567] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:03:18,582] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.244 seconds
+[2022-07-29 12:03:48,620] {processor.py:153} INFO - Started process (PID=9465) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:03:48,621] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:03:48,621] {logging_mixin.py:115} INFO - [2022-07-29 12:03:48,621] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:03:48,648] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:03:48,727] {logging_mixin.py:115} INFO - [2022-07-29 12:03:48,726] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:03:48,855] {logging_mixin.py:115} INFO - [2022-07-29 12:03:48,855] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:03:48,871] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.253 seconds
+[2022-07-29 12:04:18,901] {processor.py:153} INFO - Started process (PID=9489) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:04:18,902] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:04:18,903] {logging_mixin.py:115} INFO - [2022-07-29 12:04:18,903] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:04:18,922] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:04:18,952] {logging_mixin.py:115} INFO - [2022-07-29 12:04:18,951] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:04:18,976] {logging_mixin.py:115} INFO - [2022-07-29 12:04:18,976] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:04:18,989] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.090 seconds
+[2022-07-29 12:04:49,164] {processor.py:153} INFO - Started process (PID=9521) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:04:49,164] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:04:49,165] {logging_mixin.py:115} INFO - [2022-07-29 12:04:49,165] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:04:49,192] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:04:49,271] {logging_mixin.py:115} INFO - [2022-07-29 12:04:49,270] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:04:49,391] {logging_mixin.py:115} INFO - [2022-07-29 12:04:49,391] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:04:49,408] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.247 seconds
+[2022-07-29 12:05:19,439] {processor.py:153} INFO - Started process (PID=9553) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:05:19,440] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:05:19,440] {logging_mixin.py:115} INFO - [2022-07-29 12:05:19,440] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:05:19,458] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:05:19,524] {logging_mixin.py:115} INFO - [2022-07-29 12:05:19,523] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:05:19,675] {logging_mixin.py:115} INFO - [2022-07-29 12:05:19,675] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:05:19,693] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.257 seconds
+[2022-07-29 12:05:49,883] {processor.py:153} INFO - Started process (PID=9581) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:05:49,883] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:05:49,884] {logging_mixin.py:115} INFO - [2022-07-29 12:05:49,884] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:05:49,918] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:05:49,950] {logging_mixin.py:115} INFO - [2022-07-29 12:05:49,949] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:05:49,974] {logging_mixin.py:115} INFO - [2022-07-29 12:05:49,974] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:05:49,989] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.111 seconds
+[2022-07-29 12:06:20,267] {processor.py:153} INFO - Started process (PID=9614) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:06:20,268] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:06:20,269] {logging_mixin.py:115} INFO - [2022-07-29 12:06:20,269] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:06:20,293] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:06:20,383] {logging_mixin.py:115} INFO - [2022-07-29 12:06:20,382] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:06:20,516] {logging_mixin.py:115} INFO - [2022-07-29 12:06:20,516] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:06:20,535] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.271 seconds
+[2022-07-29 12:06:50,845] {processor.py:153} INFO - Started process (PID=9645) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:06:50,846] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:06:50,846] {logging_mixin.py:115} INFO - [2022-07-29 12:06:50,846] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:06:50,866] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:06:50,896] {logging_mixin.py:115} INFO - [2022-07-29 12:06:50,895] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:06:50,919] {logging_mixin.py:115} INFO - [2022-07-29 12:06:50,919] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:06:50,932] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.089 seconds
+[2022-07-29 12:07:21,101] {processor.py:153} INFO - Started process (PID=9671) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:07:21,103] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:07:21,103] {logging_mixin.py:115} INFO - [2022-07-29 12:07:21,103] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:07:21,121] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:07:21,184] {logging_mixin.py:115} INFO - [2022-07-29 12:07:21,183] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:07:21,303] {logging_mixin.py:115} INFO - [2022-07-29 12:07:21,303] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:07:21,319] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.220 seconds
+[2022-07-29 12:07:51,403] {processor.py:153} INFO - Started process (PID=9704) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:07:51,403] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:07:51,403] {logging_mixin.py:115} INFO - [2022-07-29 12:07:51,403] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:07:51,421] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:07:51,494] {logging_mixin.py:115} INFO - [2022-07-29 12:07:51,493] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:07:51,604] {logging_mixin.py:115} INFO - [2022-07-29 12:07:51,604] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:07:51,620] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.220 seconds
+[2022-07-29 12:08:21,671] {processor.py:153} INFO - Started process (PID=9728) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:08:21,671] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:08:21,672] {logging_mixin.py:115} INFO - [2022-07-29 12:08:21,672] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:08:21,694] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:08:21,767] {logging_mixin.py:115} INFO - [2022-07-29 12:08:21,766] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:08:21,881] {logging_mixin.py:115} INFO - [2022-07-29 12:08:21,881] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:08:21,898] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.230 seconds
+[2022-07-29 12:08:52,210] {processor.py:153} INFO - Started process (PID=9762) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:08:52,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:08:52,211] {logging_mixin.py:115} INFO - [2022-07-29 12:08:52,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:08:52,228] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:08:52,253] {logging_mixin.py:115} INFO - [2022-07-29 12:08:52,253] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:08:52,274] {logging_mixin.py:115} INFO - [2022-07-29 12:08:52,273] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:08:52,286] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.078 seconds
+[2022-07-29 12:09:22,551] {processor.py:153} INFO - Started process (PID=9795) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:09:22,552] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:09:22,553] {logging_mixin.py:115} INFO - [2022-07-29 12:09:22,553] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:09:22,574] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:09:22,647] {logging_mixin.py:115} INFO - [2022-07-29 12:09:22,646] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:09:22,758] {logging_mixin.py:115} INFO - [2022-07-29 12:09:22,758] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:09:22,774] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.226 seconds
+[2022-07-29 12:09:52,842] {processor.py:153} INFO - Started process (PID=9819) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:09:52,843] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:09:52,844] {logging_mixin.py:115} INFO - [2022-07-29 12:09:52,843] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:09:52,865] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:09:52,932] {logging_mixin.py:115} INFO - [2022-07-29 12:09:52,931] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:09:53,069] {logging_mixin.py:115} INFO - [2022-07-29 12:09:53,069] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:09:53,094] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.254 seconds
+[2022-07-29 12:10:23,138] {processor.py:153} INFO - Started process (PID=9858) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:10:23,139] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:10:23,140] {logging_mixin.py:115} INFO - [2022-07-29 12:10:23,140] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:10:23,167] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:10:23,201] {logging_mixin.py:115} INFO - [2022-07-29 12:10:23,200] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:10:23,222] {logging_mixin.py:115} INFO - [2022-07-29 12:10:23,222] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:10:23,236] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.101 seconds
+[2022-07-29 12:10:53,446] {processor.py:153} INFO - Started process (PID=9891) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:10:53,447] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:10:53,447] {logging_mixin.py:115} INFO - [2022-07-29 12:10:53,447] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:10:53,469] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:10:53,530] {logging_mixin.py:115} INFO - [2022-07-29 12:10:53,530] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:10:53,657] {logging_mixin.py:115} INFO - [2022-07-29 12:10:53,657] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:10:53,677] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.234 seconds
+[2022-07-29 12:11:23,733] {processor.py:153} INFO - Started process (PID=9915) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:11:23,735] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:11:23,735] {logging_mixin.py:115} INFO - [2022-07-29 12:11:23,735] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:11:23,754] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:11:23,781] {logging_mixin.py:115} INFO - [2022-07-29 12:11:23,781] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:11:23,804] {logging_mixin.py:115} INFO - [2022-07-29 12:11:23,803] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:11:23,818] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.087 seconds
+[2022-07-29 12:11:54,127] {processor.py:153} INFO - Started process (PID=9962) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:11:54,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:11:54,128] {logging_mixin.py:115} INFO - [2022-07-29 12:11:54,127] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:11:54,145] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:11:54,171] {logging_mixin.py:115} INFO - [2022-07-29 12:11:54,170] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:11:54,192] {logging_mixin.py:115} INFO - [2022-07-29 12:11:54,192] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:11:54,205] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.080 seconds
+[2022-07-29 12:12:24,407] {processor.py:153} INFO - Started process (PID=9985) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:12:24,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:12:24,409] {logging_mixin.py:115} INFO - [2022-07-29 12:12:24,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:12:24,428] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:12:24,454] {logging_mixin.py:115} INFO - [2022-07-29 12:12:24,453] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:12:24,474] {logging_mixin.py:115} INFO - [2022-07-29 12:12:24,474] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:12:24,488] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.083 seconds
+[2022-07-29 12:12:54,725] {processor.py:153} INFO - Started process (PID=10019) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:12:54,726] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:12:54,726] {logging_mixin.py:115} INFO - [2022-07-29 12:12:54,726] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:12:54,745] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:12:54,772] {logging_mixin.py:115} INFO - [2022-07-29 12:12:54,771] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:12:54,793] {logging_mixin.py:115} INFO - [2022-07-29 12:12:54,793] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:12:54,806] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.083 seconds
+[2022-07-29 12:13:25,130] {processor.py:153} INFO - Started process (PID=10052) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:13:25,131] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:13:25,131] {logging_mixin.py:115} INFO - [2022-07-29 12:13:25,131] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:13:25,152] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:13:25,179] {logging_mixin.py:115} INFO - [2022-07-29 12:13:25,178] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:13:25,201] {logging_mixin.py:115} INFO - [2022-07-29 12:13:25,201] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:13:25,214] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.086 seconds
+[2022-07-29 12:13:55,580] {processor.py:153} INFO - Started process (PID=10077) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:13:55,580] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:13:55,580] {logging_mixin.py:115} INFO - [2022-07-29 12:13:55,580] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:13:55,600] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:13:55,627] {logging_mixin.py:115} INFO - [2022-07-29 12:13:55,626] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:13:55,650] {logging_mixin.py:115} INFO - [2022-07-29 12:13:55,650] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:13:55,665] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.088 seconds
+[2022-07-29 12:14:25,847] {processor.py:153} INFO - Started process (PID=10110) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:14:25,848] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:14:25,849] {logging_mixin.py:115} INFO - [2022-07-29 12:14:25,849] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:14:25,867] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:14:25,892] {logging_mixin.py:115} INFO - [2022-07-29 12:14:25,891] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:14:25,912] {logging_mixin.py:115} INFO - [2022-07-29 12:14:25,912] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:14:25,924] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.080 seconds
+[2022-07-29 12:14:56,108] {processor.py:153} INFO - Started process (PID=10143) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:14:56,117] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:14:56,118] {logging_mixin.py:115} INFO - [2022-07-29 12:14:56,118] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:14:56,144] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:14:56,169] {logging_mixin.py:115} INFO - [2022-07-29 12:14:56,168] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:14:56,194] {logging_mixin.py:115} INFO - [2022-07-29 12:14:56,193] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:14:56,216] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.111 seconds
+[2022-07-29 12:15:26,409] {processor.py:153} INFO - Started process (PID=10167) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:15:26,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:15:26,409] {logging_mixin.py:115} INFO - [2022-07-29 12:15:26,409] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:15:26,428] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:15:26,492] {logging_mixin.py:115} INFO - [2022-07-29 12:15:26,492] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:15:26,604] {logging_mixin.py:115} INFO - [2022-07-29 12:15:26,604] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:15:26,621] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.214 seconds
+[2022-07-29 12:15:56,918] {processor.py:153} INFO - Started process (PID=10201) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:15:56,919] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-29 12:15:56,920] {logging_mixin.py:115} INFO - [2022-07-29 12:15:56,920] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:15:56,949] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-29 12:15:57,042] {logging_mixin.py:115} INFO - [2022-07-29 12:15:57,041] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 12:15:57,162] {logging_mixin.py:115} INFO - [2022-07-29 12:15:57,162] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-28T00:00:00+00:00, run_after=2022-07-29T00:00:00+00:00
+[2022-07-29 12:15:57,176] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.262 seconds
