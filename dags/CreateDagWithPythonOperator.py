@@ -21,11 +21,9 @@ def greet(some_dict, task):
     print(f"Hello World! My name is {first_name} {last_name}, "
           f"and I am {age} years old!")
 
-
 def get_name(task):
     task.xcom_push(key='first_name', value='yosr')
     task.xcom_push(key='last_name', value='hb')
-
 
 def get_age(task):
     task.xcom_push(key='age', value=22)

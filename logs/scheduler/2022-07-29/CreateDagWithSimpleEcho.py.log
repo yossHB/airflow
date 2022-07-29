@@ -202,3 +202,105 @@
 [2022-07-29 11:50:24,600] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
 [2022-07-29 11:50:24,629] {logging_mixin.py:115} INFO - [2022-07-29 11:50:24,629] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-07-29 11:50:24,666] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.079 seconds
+[2022-07-29 11:50:54,897] {processor.py:153} INFO - Started process (PID=7437) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:50:54,898] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:50:54,899] {logging_mixin.py:115} INFO - [2022-07-29 11:50:54,899] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:50:54,910] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:50:54,938] {logging_mixin.py:115} INFO - [2022-07-29 11:50:54,938] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:50:54,979] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.085 seconds
+[2022-07-29 11:51:25,210] {processor.py:153} INFO - Started process (PID=7469) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:51:25,211] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:51:25,211] {logging_mixin.py:115} INFO - [2022-07-29 11:51:25,211] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:51:25,223] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:51:25,256] {logging_mixin.py:115} INFO - [2022-07-29 11:51:25,256] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:51:25,301] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.094 seconds
+[2022-07-29 11:51:55,631] {processor.py:153} INFO - Started process (PID=7493) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:51:55,631] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:51:55,632] {logging_mixin.py:115} INFO - [2022-07-29 11:51:55,631] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:51:55,639] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:51:55,664] {logging_mixin.py:115} INFO - [2022-07-29 11:51:55,664] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:51:55,701] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.072 seconds
+[2022-07-29 11:52:25,887] {processor.py:153} INFO - Started process (PID=7524) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:52:25,888] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:52:25,889] {logging_mixin.py:115} INFO - [2022-07-29 11:52:25,889] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:52:25,897] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:52:25,921] {logging_mixin.py:115} INFO - [2022-07-29 11:52:25,920] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:52:25,953] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.068 seconds
+[2022-07-29 11:52:56,127] {processor.py:153} INFO - Started process (PID=7546) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:52:56,127] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:52:56,128] {logging_mixin.py:115} INFO - [2022-07-29 11:52:56,128] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:52:56,137] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:52:56,169] {logging_mixin.py:115} INFO - [2022-07-29 11:52:56,169] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:52:56,211] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.087 seconds
+[2022-07-29 11:53:26,456] {processor.py:153} INFO - Started process (PID=7576) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:53:26,457] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:53:26,458] {logging_mixin.py:115} INFO - [2022-07-29 11:53:26,458] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:53:26,467] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:53:26,492] {logging_mixin.py:115} INFO - [2022-07-29 11:53:26,492] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:53:26,525] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.072 seconds
+[2022-07-29 11:53:56,722] {processor.py:153} INFO - Started process (PID=7608) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:53:56,723] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:53:56,723] {logging_mixin.py:115} INFO - [2022-07-29 11:53:56,723] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:53:56,731] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:53:56,762] {logging_mixin.py:115} INFO - [2022-07-29 11:53:56,762] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:53:56,804] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.084 seconds
+[2022-07-29 11:54:26,969] {processor.py:153} INFO - Started process (PID=7631) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:54:26,971] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:54:26,971] {logging_mixin.py:115} INFO - [2022-07-29 11:54:26,971] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:54:26,980] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:54:27,013] {logging_mixin.py:115} INFO - [2022-07-29 11:54:27,012] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:54:27,049] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.082 seconds
+[2022-07-29 11:54:57,142] {processor.py:153} INFO - Started process (PID=7662) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:54:57,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:54:57,143] {logging_mixin.py:115} INFO - [2022-07-29 11:54:57,143] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:54:57,151] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:54:57,176] {logging_mixin.py:115} INFO - [2022-07-29 11:54:57,176] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:54:57,209] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.070 seconds
+[2022-07-29 11:55:27,464] {processor.py:153} INFO - Started process (PID=7685) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:55:27,465] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:55:27,466] {logging_mixin.py:115} INFO - [2022-07-29 11:55:27,466] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:55:27,476] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:55:27,512] {logging_mixin.py:115} INFO - [2022-07-29 11:55:27,511] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:55:27,553] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.091 seconds
+[2022-07-29 11:55:57,892] {processor.py:153} INFO - Started process (PID=7789) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:55:57,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:55:57,894] {logging_mixin.py:115} INFO - [2022-07-29 11:55:57,894] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:55:57,907] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:55:57,946] {logging_mixin.py:115} INFO - [2022-07-29 11:55:57,946] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:55:58,007] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.117 seconds
+[2022-07-29 11:56:28,240] {processor.py:153} INFO - Started process (PID=7964) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:56:28,241] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:56:28,242] {logging_mixin.py:115} INFO - [2022-07-29 11:56:28,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:56:28,252] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:56:28,295] {logging_mixin.py:115} INFO - [2022-07-29 11:56:28,295] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:56:28,348] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.112 seconds
+[2022-07-29 11:56:59,070] {processor.py:153} INFO - Started process (PID=8150) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:56:59,071] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:56:59,071] {logging_mixin.py:115} INFO - [2022-07-29 11:56:59,071] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:56:59,081] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:56:59,113] {logging_mixin.py:115} INFO - [2022-07-29 11:56:59,113] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:56:59,159] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.091 seconds
+[2022-07-29 11:57:29,304] {processor.py:153} INFO - Started process (PID=8338) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:57:29,306] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:57:29,307] {logging_mixin.py:115} INFO - [2022-07-29 11:57:29,306] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:57:29,321] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:57:29,371] {logging_mixin.py:115} INFO - [2022-07-29 11:57:29,371] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:57:29,430] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.129 seconds
+[2022-07-29 11:57:59,535] {processor.py:153} INFO - Started process (PID=8516) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:57:59,536] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:57:59,537] {logging_mixin.py:115} INFO - [2022-07-29 11:57:59,536] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:57:59,552] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:57:59,601] {logging_mixin.py:115} INFO - [2022-07-29 11:57:59,601] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:57:59,665] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.134 seconds
+[2022-07-29 11:58:29,849] {processor.py:153} INFO - Started process (PID=8692) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:58:29,850] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:58:29,851] {logging_mixin.py:115} INFO - [2022-07-29 11:58:29,851] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:58:29,862] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:58:29,897] {logging_mixin.py:115} INFO - [2022-07-29 11:58:29,897] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:58:29,936] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.089 seconds
+[2022-07-29 11:59:00,241] {processor.py:153} INFO - Started process (PID=8869) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:59:00,242] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-29 11:59:00,243] {logging_mixin.py:115} INFO - [2022-07-29 11:59:00,242] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:59:00,256] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-29 11:59:00,293] {logging_mixin.py:115} INFO - [2022-07-29 11:59:00,293] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:59:00,347] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.109 seconds

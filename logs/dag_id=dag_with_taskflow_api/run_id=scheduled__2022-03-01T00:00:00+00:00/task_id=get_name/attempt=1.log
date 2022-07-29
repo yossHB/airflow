@@ -1,0 +1,23 @@
+[2022-07-29 11:57:44,914] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_taskflow_api.get_name scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2022-07-29 11:57:44,929] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_taskflow_api.get_name scheduled__2022-03-01T00:00:00+00:00 [queued]>
+[2022-07-29 11:57:44,929] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-29 11:57:44,929] {taskinstance.py:1357} INFO - Starting attempt 1 of 6
+[2022-07-29 11:57:44,929] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-29 11:57:44,950] {taskinstance.py:1377} INFO - Executing <Task(_PythonDecoratedOperator): get_name> on 2022-03-01 00:00:00+00:00
+[2022-07-29 11:57:44,956] {standard_task_runner.py:52} INFO - Started process 8961 to run task
+[2022-07-29 11:57:44,962] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_taskflow_api', 'get_name', 'scheduled__2022-03-01T00:00:00+00:00', '--job-id', '1672', '--raw', '--subdir', 'DAGS_FOLDER/DagWithTaskflowApi.py', '--cfg-path', '/tmp/tmp9r44f5_5', '--error-file', '/tmp/tmp32guot2l']
+[2022-07-29 11:57:44,962] {standard_task_runner.py:80} INFO - Job 1672: Subtask get_name
+[2022-07-29 11:57:45,051] {task_command.py:369} INFO - Running <TaskInstance: dag_with_taskflow_api.get_name scheduled__2022-03-01T00:00:00+00:00 [running]> on host 9f0f006fc89d
+[2022-07-29 11:57:45,169] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yosr
+AIRFLOW_CTX_DAG_ID=dag_with_taskflow_api
+AIRFLOW_CTX_TASK_ID=get_name
+AIRFLOW_CTX_EXECUTION_DATE=2022-03-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-03-01T00:00:00+00:00
+[2022-07-29 11:57:45,170] {python.py:173} INFO - Done. Returned value was: {'first_name': 'yosr', 'last_name': 'hb'}
+[2022-07-29 11:57:45,255] {taskinstance.py:1400} INFO - Marking task as SUCCESS. dag_id=dag_with_taskflow_api, task_id=get_name, execution_date=20220301T000000, start_date=20220729T115744, end_date=20220729T115745
+[2022-07-29 11:57:45,306] {local_task_job.py:156} INFO - Task exited with return code 0
+[2022-07-29 11:57:45,373] {local_task_job.py:273} INFO - 1 downstream tasks scheduled from follow-on schedule check
