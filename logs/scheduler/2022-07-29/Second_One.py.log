@@ -989,3 +989,15 @@ airflow.exceptions.DuplicateTaskIdFound: Task id 'second_task' has already been 
 [2022-07-29 11:30:30,808] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/Second_One.py
 [2022-07-29 11:30:30,840] {logging_mixin.py:115} INFO - [2022-07-29 11:30:30,840] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-07-29 11:30:30,877] {processor.py:161} INFO - Processing /opt/airflow/dags/Second_One.py took 0.081 seconds
+[2022-07-29 11:31:01,066] {processor.py:153} INFO - Started process (PID=4963) to work on /opt/airflow/dags/Second_One.py
+[2022-07-29 11:31:01,066] {processor.py:641} INFO - Processing file /opt/airflow/dags/Second_One.py for tasks to queue
+[2022-07-29 11:31:01,067] {logging_mixin.py:115} INFO - [2022-07-29 11:31:01,067] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Second_One.py
+[2022-07-29 11:31:01,073] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/Second_One.py
+[2022-07-29 11:31:01,113] {logging_mixin.py:115} INFO - [2022-07-29 11:31:01,113] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:31:01,172] {processor.py:161} INFO - Processing /opt/airflow/dags/Second_One.py took 0.110 seconds
+[2022-07-29 11:31:31,277] {processor.py:153} INFO - Started process (PID=4994) to work on /opt/airflow/dags/Second_One.py
+[2022-07-29 11:31:31,290] {processor.py:641} INFO - Processing file /opt/airflow/dags/Second_One.py for tasks to queue
+[2022-07-29 11:31:31,299] {logging_mixin.py:115} INFO - [2022-07-29 11:31:31,299] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/Second_One.py
+[2022-07-29 11:31:31,308] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/Second_One.py
+[2022-07-29 11:31:31,351] {logging_mixin.py:115} INFO - [2022-07-29 11:31:31,351] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-29 11:31:31,404] {processor.py:161} INFO - Processing /opt/airflow/dags/Second_One.py took 0.131 seconds
