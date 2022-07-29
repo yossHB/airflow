@@ -15,7 +15,7 @@ with DAG(
     default_args=default_args,
     description='This is my second airflow project',
     start_date=datetime(2021,7,29,2),
-    schedule_interval='@daily'
+    schedule_interval='@daily'   # need a cron expression
 ) as dag:
     task1 = BashOperator(
         task_id='first_task',
