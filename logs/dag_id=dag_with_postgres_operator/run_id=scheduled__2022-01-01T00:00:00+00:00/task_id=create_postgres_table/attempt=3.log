@@ -1,0 +1,184 @@
+[2022-07-30 17:48:35,876] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-30 17:48:35,898] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-30 17:48:35,899] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-30 17:48:35,899] {taskinstance.py:1357} INFO - Starting attempt 3 of 6
+[2022-07-30 17:48:35,899] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-30 17:48:35,921] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2022-07-30 17:48:35,927] {standard_task_runner.py:52} INFO - Started process 926 to run task
+[2022-07-30 17:48:35,931] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/DAGWithPostgresOperator.py', '--cfg-path', '/tmp/tmpx9yhg7b7', '--error-file', '/tmp/tmprbq7175l']
+[2022-07-30 17:48:35,932] {standard_task_runner.py:80} INFO - Job 48: Subtask create_postgres_table
+[2022-07-30 17:48:36,017] {task_command.py:369} INFO - Running <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 66bf18ec08cc
+[2022-07-30 17:48:36,113] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yosr
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-07-30 17:48:36,126] {base.py:68} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-07-30 17:48:36,127] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 181, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 113, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "host.docker.internal " to address: Name or service not known
+
+[2022-07-30 17:48:36,142] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_postgres_operator, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20220730T174835, end_date=20220730T174836
+[2022-07-30 17:48:36,160] {standard_task_runner.py:97} ERROR - Failed to execute job 48 for task create_postgres_table (could not translate host name "host.docker.internal " to address: Name or service not known
+; 926)
+[2022-07-30 17:48:36,191] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-30 17:48:36,245] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-30 23:54:51,095] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-30 23:54:51,120] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-30 23:54:51,120] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-30 23:54:51,120] {taskinstance.py:1357} INFO - Starting attempt 3 of 6
+[2022-07-30 23:54:51,121] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-30 23:54:51,139] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2022-07-30 23:54:51,144] {standard_task_runner.py:52} INFO - Started process 4845 to run task
+[2022-07-30 23:54:51,148] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '1057', '--raw', '--subdir', 'DAGS_FOLDER/DAGWithPostgresOperator.py', '--cfg-path', '/tmp/tmpx4bi7rb5', '--error-file', '/tmp/tmphw6lys95']
+[2022-07-30 23:54:51,148] {standard_task_runner.py:80} INFO - Job 1057: Subtask create_postgres_table
+[2022-07-30 23:54:51,223] {task_command.py:369} INFO - Running <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 66bf18ec08cc
+[2022-07-30 23:54:51,319] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yosr
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-07-30 23:54:51,333] {base.py:68} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-07-30 23:54:51,334] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 181, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 113, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "host.docker.local " to address: Name or service not known
+
+[2022-07-30 23:54:51,350] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_postgres_operator, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20220730T235451, end_date=20220730T235451
+[2022-07-30 23:54:51,367] {standard_task_runner.py:97} ERROR - Failed to execute job 1057 for task create_postgres_table (could not translate host name "host.docker.local " to address: Name or service not known
+; 4845)
+[2022-07-30 23:54:51,405] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-30 23:54:51,465] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-31 10:36:06,504] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-31 10:36:06,525] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-31 10:36:06,525] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 10:36:06,525] {taskinstance.py:1357} INFO - Starting attempt 3 of 6
+[2022-07-31 10:36:06,525] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 10:36:06,546] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2022-07-31 10:36:06,550] {standard_task_runner.py:52} INFO - Started process 3060 to run task
+[2022-07-31 10:36:06,555] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '1458', '--raw', '--subdir', 'DAGS_FOLDER/DAGWithPostgresOperator.py', '--cfg-path', '/tmp/tmptav4yuof', '--error-file', '/tmp/tmpb5yx6mt_']
+[2022-07-31 10:36:06,555] {standard_task_runner.py:80} INFO - Job 1458: Subtask create_postgres_table
+[2022-07-31 10:36:06,633] {task_command.py:369} INFO - Running <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 66bf18ec08cc
+[2022-07-31 10:36:06,730] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yosr
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-07-31 10:36:06,745] {base.py:68} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-07-31 10:36:06,747] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 181, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 113, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "host.docker.internal " to address: Name or service not known
+
+[2022-07-31 10:36:06,761] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_postgres_operator, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20220731T103606, end_date=20220731T103606
+[2022-07-31 10:36:06,775] {standard_task_runner.py:97} ERROR - Failed to execute job 1458 for task create_postgres_table (could not translate host name "host.docker.internal " to address: Name or service not known
+; 3060)
+[2022-07-31 10:36:06,812] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-31 10:36:06,910] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-31 10:48:15,309] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-31 10:48:15,342] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-31 10:48:15,342] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 10:48:15,342] {taskinstance.py:1357} INFO - Starting attempt 3 of 6
+[2022-07-31 10:48:15,342] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 10:48:15,358] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2022-07-31 10:48:15,363] {standard_task_runner.py:52} INFO - Started process 3717 to run task
+[2022-07-31 10:48:15,367] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '1507', '--raw', '--subdir', 'DAGS_FOLDER/DAGWithPostgresOperator.py', '--cfg-path', '/tmp/tmpfng509os', '--error-file', '/tmp/tmp9vi7ysgv']
+[2022-07-31 10:48:15,368] {standard_task_runner.py:80} INFO - Job 1507: Subtask create_postgres_table
+[2022-07-31 10:48:15,442] {task_command.py:369} INFO - Running <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 66bf18ec08cc
+[2022-07-31 10:48:15,536] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yosr
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-07-31 10:48:15,547] {base.py:68} INFO - Using connection ID 'postgres_localhost' for task execution.
+[2022-07-31 10:48:15,548] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 181, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 113, in get_conn
+    self.conn = psycopg2.connect(**conn_args)
+  File "/home/airflow/.local/lib/python3.7/site-packages/psycopg2/__init__.py", line 122, in connect
+    conn = _connect(dsn, connection_factory=connection_factory, **kwasync)
+psycopg2.OperationalError: could not translate host name "host.docker.internal " to address: Name or service not known
+
+[2022-07-31 10:48:15,562] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_postgres_operator, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20220731T104815, end_date=20220731T104815
+[2022-07-31 10:48:15,576] {standard_task_runner.py:97} ERROR - Failed to execute job 1507 for task create_postgres_table (could not translate host name "host.docker.internal " to address: Name or service not known
+; 3717)
+[2022-07-31 10:48:15,586] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-31 10:48:15,631] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2022-07-31 13:20:00,120] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-31 13:20:00,137] {taskinstance.py:1159} INFO - Dependencies all met for <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [queued]>
+[2022-07-31 13:20:00,138] {taskinstance.py:1356} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 13:20:00,138] {taskinstance.py:1357} INFO - Starting attempt 3 of 6
+[2022-07-31 13:20:00,138] {taskinstance.py:1358} INFO - 
+--------------------------------------------------------------------------------
+[2022-07-31 13:20:00,164] {taskinstance.py:1377} INFO - Executing <Task(PostgresOperator): create_postgres_table> on 2022-01-01 00:00:00+00:00
+[2022-07-31 13:20:00,169] {standard_task_runner.py:52} INFO - Started process 1312 to run task
+[2022-07-31 13:20:00,173] {standard_task_runner.py:79} INFO - Running: ['***', 'tasks', 'run', 'dag_with_postgres_operator', 'create_postgres_table', 'scheduled__2022-01-01T00:00:00+00:00', '--job-id', '48', '--raw', '--subdir', 'DAGS_FOLDER/DAGWithPostgresOperator.py', '--cfg-path', '/tmp/tmp294slc5v', '--error-file', '/tmp/tmplbwg81j8']
+[2022-07-31 13:20:00,174] {standard_task_runner.py:80} INFO - Job 48: Subtask create_postgres_table
+[2022-07-31 13:20:00,275] {task_command.py:369} INFO - Running <TaskInstance: dag_with_postgres_operator.create_postgres_table scheduled__2022-01-01T00:00:00+00:00 [running]> on host 4688dd3b7141
+[2022-07-31 13:20:00,391] {taskinstance.py:1571} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=yosr
+AIRFLOW_CTX_DAG_ID=dag_with_postgres_operator
+AIRFLOW_CTX_TASK_ID=create_postgres_table
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-01T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=3
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-01T00:00:00+00:00
+[2022-07-31 13:20:00,574] {taskinstance.py:1889} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/operators/postgres.py", line 92, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/dbapi.py", line 181, in run
+    with closing(self.get_conn()) as conn:
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/providers/postgres/hooks/postgres.py", line 86, in get_conn
+    conn = deepcopy(self.connection or self.get_connection(conn_id))
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/hooks/base.py", line 67, in get_connection
+    conn = Connection.get_connection_from_secrets(conn_id)
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/connection.py", line 430, in get_connection_from_secrets
+    raise AirflowNotFoundException(f"The conn_id `{conn_id}` isn't defined")
+airflow.exceptions.AirflowNotFoundException: The conn_id `postgres_localhost` isn't defined
+[2022-07-31 13:20:00,579] {taskinstance.py:1400} INFO - Marking task as UP_FOR_RETRY. dag_id=dag_with_postgres_operator, task_id=create_postgres_table, execution_date=20220101T000000, start_date=20220731T132000, end_date=20220731T132000
+[2022-07-31 13:20:00,606] {standard_task_runner.py:97} ERROR - Failed to execute job 48 for task create_postgres_table (The conn_id `postgres_localhost` isn't defined; 1312)
+[2022-07-31 13:20:00,635] {local_task_job.py:156} INFO - Task exited with return code 1
+[2022-07-31 13:20:00,682] {local_task_job.py:273} INFO - 0 downstream tasks scheduled from follow-on schedule check
