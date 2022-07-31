@@ -8808,3 +8808,31 @@
 [2022-07-31 21:06:52,741] {logging_mixin.py:115} INFO - [2022-07-31 21:06:52,741] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-07-31 21:06:52,765] {logging_mixin.py:115} INFO - [2022-07-31 21:06:52,765] {dag.py:2919} INFO - Setting next_dagrun for Second_one__ to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
 [2022-07-31 21:06:52,780] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.083 seconds
+[2022-07-31 21:07:23,219] {processor.py:153} INFO - Started process (PID=22981) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:07:23,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-31 21:07:23,220] {logging_mixin.py:115} INFO - [2022-07-31 21:07:23,220] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:07:23,226] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:07:23,261] {logging_mixin.py:115} INFO - [2022-07-31 21:07:23,261] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:07:23,282] {logging_mixin.py:115} INFO - [2022-07-31 21:07:23,282] {dag.py:2919} INFO - Setting next_dagrun for Second_one__ to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-07-31 21:07:23,296] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.081 seconds
+[2022-07-31 21:07:53,718] {processor.py:153} INFO - Started process (PID=23008) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:07:53,720] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-31 21:07:53,721] {logging_mixin.py:115} INFO - [2022-07-31 21:07:53,721] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:07:53,731] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:07:53,782] {logging_mixin.py:115} INFO - [2022-07-31 21:07:53,781] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:07:53,820] {logging_mixin.py:115} INFO - [2022-07-31 21:07:53,820] {dag.py:2919} INFO - Setting next_dagrun for Second_one__ to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-07-31 21:07:53,844] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.129 seconds
+[2022-07-31 21:08:24,250] {processor.py:153} INFO - Started process (PID=23044) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:08:24,251] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-31 21:08:24,252] {logging_mixin.py:115} INFO - [2022-07-31 21:08:24,252] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:08:24,261] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:08:24,298] {logging_mixin.py:115} INFO - [2022-07-31 21:08:24,298] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:08:24,319] {logging_mixin.py:115} INFO - [2022-07-31 21:08:24,319] {dag.py:2919} INFO - Setting next_dagrun for Second_one__ to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-07-31 21:08:24,334] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.087 seconds
+[2022-07-31 21:08:54,774] {processor.py:153} INFO - Started process (PID=23080) to work on /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:08:54,774] {processor.py:641} INFO - Processing file /opt/airflow/dags/CreateDagWithSimpleEcho.py for tasks to queue
+[2022-07-31 21:08:54,775] {logging_mixin.py:115} INFO - [2022-07-31 21:08:54,775] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:08:54,781] {processor.py:651} INFO - DAG(s) dict_keys(['Second_one__']) retrieved from /opt/airflow/dags/CreateDagWithSimpleEcho.py
+[2022-07-31 21:08:54,811] {logging_mixin.py:115} INFO - [2022-07-31 21:08:54,810] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:08:54,834] {logging_mixin.py:115} INFO - [2022-07-31 21:08:54,834] {dag.py:2919} INFO - Setting next_dagrun for Second_one__ to 2021-07-30T00:00:00+00:00, run_after=2021-07-31T00:00:00+00:00
+[2022-07-31 21:08:54,850] {processor.py:161} INFO - Processing /opt/airflow/dags/CreateDagWithSimpleEcho.py took 0.079 seconds

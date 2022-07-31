@@ -2,9 +2,3 @@
 
 - https://gtoonstra.github.io/etl-with-airflow/principles.html
 
-- 
-- 
-- 
-- 
-- 
-

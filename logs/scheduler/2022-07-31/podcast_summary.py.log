@@ -8808,3 +8808,31 @@
 [2022-07-31 21:06:56,884] {logging_mixin.py:115} INFO - [2022-07-31 21:06:56,884] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-07-31 21:06:56,918] {logging_mixin.py:115} INFO - [2022-07-31 21:06:56,917] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
 [2022-07-31 21:06:56,962] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.145 seconds
+[2022-07-31 21:07:27,335] {processor.py:153} INFO - Started process (PID=22985) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:07:27,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-31 21:07:27,336] {logging_mixin.py:115} INFO - [2022-07-31 21:07:27,335] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:07:27,361] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:07:27,395] {logging_mixin.py:115} INFO - [2022-07-31 21:07:27,395] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:07:27,422] {logging_mixin.py:115} INFO - [2022-07-31 21:07:27,422] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 21:07:27,439] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.107 seconds
+[2022-07-31 21:07:57,885] {processor.py:153} INFO - Started process (PID=23021) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:07:57,886] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-31 21:07:57,887] {logging_mixin.py:115} INFO - [2022-07-31 21:07:57,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:07:57,916] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:07:57,949] {logging_mixin.py:115} INFO - [2022-07-31 21:07:57,948] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:07:57,977] {logging_mixin.py:115} INFO - [2022-07-31 21:07:57,977] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 21:07:57,995] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.113 seconds
+[2022-07-31 21:08:28,368] {processor.py:153} INFO - Started process (PID=23048) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:08:28,369] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-31 21:08:28,370] {logging_mixin.py:115} INFO - [2022-07-31 21:08:28,369] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:08:28,390] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:08:28,473] {logging_mixin.py:115} INFO - [2022-07-31 21:08:28,472] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:08:28,498] {logging_mixin.py:115} INFO - [2022-07-31 21:08:28,498] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 21:08:28,519] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.153 seconds
+[2022-07-31 21:08:58,892] {processor.py:153} INFO - Started process (PID=23084) to work on /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:08:58,893] {processor.py:641} INFO - Processing file /opt/airflow/dags/podcast_summary.py for tasks to queue
+[2022-07-31 21:08:58,894] {logging_mixin.py:115} INFO - [2022-07-31 21:08:58,894] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:08:58,920] {processor.py:651} INFO - DAG(s) dict_keys(['podcast_summary']) retrieved from /opt/airflow/dags/podcast_summary.py
+[2022-07-31 21:08:58,995] {logging_mixin.py:115} INFO - [2022-07-31 21:08:58,994] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:08:59,020] {logging_mixin.py:115} INFO - [2022-07-31 21:08:59,020] {dag.py:2919} INFO - Setting next_dagrun for podcast_summary to 2022-07-30T00:00:00+00:00, run_after=2022-07-31T00:00:00+00:00
+[2022-07-31 21:08:59,038] {processor.py:161} INFO - Processing /opt/airflow/dags/podcast_summary.py took 0.148 seconds

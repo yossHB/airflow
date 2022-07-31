@@ -8808,3 +8808,31 @@
 [2022-07-31 21:06:50,643] {logging_mixin.py:115} INFO - [2022-07-31 21:06:50,643] {dag.py:2371} INFO - Sync 1 DAGs
 [2022-07-31 21:06:50,664] {logging_mixin.py:115} INFO - [2022-07-31 21:06:50,664] {dag.py:2919} INFO - Setting next_dagrun for dag_with_cron_expression to 2022-01-04T03:00:00+00:00, run_after=2022-01-05T03:00:00+00:00
 [2022-07-31 21:06:50,678] {processor.py:161} INFO - Processing /opt/airflow/dags/DagWithCronExpression.py took 0.075 seconds
+[2022-07-31 21:07:21,073] {processor.py:153} INFO - Started process (PID=22980) to work on /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:07:21,075] {processor.py:641} INFO - Processing file /opt/airflow/dags/DagWithCronExpression.py for tasks to queue
+[2022-07-31 21:07:21,076] {logging_mixin.py:115} INFO - [2022-07-31 21:07:21,076] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:07:21,103] {processor.py:651} INFO - DAG(s) dict_keys(['dag_with_cron_expression']) retrieved from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:07:21,144] {logging_mixin.py:115} INFO - [2022-07-31 21:07:21,144] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:07:21,175] {logging_mixin.py:115} INFO - [2022-07-31 21:07:21,175] {dag.py:2919} INFO - Setting next_dagrun for dag_with_cron_expression to 2022-01-04T03:00:00+00:00, run_after=2022-01-05T03:00:00+00:00
+[2022-07-31 21:07:21,192] {processor.py:161} INFO - Processing /opt/airflow/dags/DagWithCronExpression.py took 0.123 seconds
+[2022-07-31 21:07:51,611] {processor.py:153} INFO - Started process (PID=23007) to work on /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:07:51,612] {processor.py:641} INFO - Processing file /opt/airflow/dags/DagWithCronExpression.py for tasks to queue
+[2022-07-31 21:07:51,613] {logging_mixin.py:115} INFO - [2022-07-31 21:07:51,613] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:07:51,618] {processor.py:651} INFO - DAG(s) dict_keys(['dag_with_cron_expression']) retrieved from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:07:51,651] {logging_mixin.py:115} INFO - [2022-07-31 21:07:51,651] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:07:51,679] {logging_mixin.py:115} INFO - [2022-07-31 21:07:51,678] {dag.py:2919} INFO - Setting next_dagrun for dag_with_cron_expression to 2022-01-04T03:00:00+00:00, run_after=2022-01-05T03:00:00+00:00
+[2022-07-31 21:07:51,696] {processor.py:161} INFO - Processing /opt/airflow/dags/DagWithCronExpression.py took 0.087 seconds
+[2022-07-31 21:08:22,151] {processor.py:153} INFO - Started process (PID=23043) to work on /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:08:22,151] {processor.py:641} INFO - Processing file /opt/airflow/dags/DagWithCronExpression.py for tasks to queue
+[2022-07-31 21:08:22,152] {logging_mixin.py:115} INFO - [2022-07-31 21:08:22,152] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:08:22,157] {processor.py:651} INFO - DAG(s) dict_keys(['dag_with_cron_expression']) retrieved from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:08:22,187] {logging_mixin.py:115} INFO - [2022-07-31 21:08:22,187] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:08:22,211] {logging_mixin.py:115} INFO - [2022-07-31 21:08:22,210] {dag.py:2919} INFO - Setting next_dagrun for dag_with_cron_expression to 2022-01-04T03:00:00+00:00, run_after=2022-01-05T03:00:00+00:00
+[2022-07-31 21:08:22,226] {processor.py:161} INFO - Processing /opt/airflow/dags/DagWithCronExpression.py took 0.078 seconds
+[2022-07-31 21:08:52,655] {processor.py:153} INFO - Started process (PID=23079) to work on /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:08:52,657] {processor.py:641} INFO - Processing file /opt/airflow/dags/DagWithCronExpression.py for tasks to queue
+[2022-07-31 21:08:52,658] {logging_mixin.py:115} INFO - [2022-07-31 21:08:52,658] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:08:52,666] {processor.py:651} INFO - DAG(s) dict_keys(['dag_with_cron_expression']) retrieved from /opt/airflow/dags/DagWithCronExpression.py
+[2022-07-31 21:08:52,715] {logging_mixin.py:115} INFO - [2022-07-31 21:08:52,715] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-07-31 21:08:52,745] {logging_mixin.py:115} INFO - [2022-07-31 21:08:52,745] {dag.py:2919} INFO - Setting next_dagrun for dag_with_cron_expression to 2022-01-04T03:00:00+00:00, run_after=2022-01-05T03:00:00+00:00
+[2022-07-31 21:08:52,770] {processor.py:161} INFO - Processing /opt/airflow/dags/DagWithCronExpression.py took 0.119 seconds

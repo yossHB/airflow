@@ -39565,3 +39565,67 @@ File Path                                         PID    Runtime      # DAGs    
 /opt/airflow/dags/CreateDagWithSimpleEcho.py                               1           0  0.11s           2022-07-31T21:06:22
 /opt/airflow/dags/DAGWithPythonDependencies.py                             1           0  0.13s           2022-07-31T21:06:11
 ================================================================================
+[2022-07-31 21:07:11,017] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/podcast_summary.py                                       1           0  0.17s           2022-07-31T21:06:56
+/opt/airflow/dags/DAGWithPostgresOperator.py                               1           0  0.09s           2022-07-31T21:06:50
+/opt/airflow/dags/DagWithCronExpression.py                                 1           0  0.09s           2022-07-31T21:06:50
+/opt/airflow/dags/DagWithTaskflowApi.py                                    1           0  0.17s           2022-07-31T21:06:56
+/opt/airflow/dags/first_pipeline.py                                        1           0  0.21s           2022-07-31T21:06:57
+/opt/airflow/dags/DagWithCatchupAndBackfill.py                             1           0  0.10s           2022-07-31T21:06:52
+/opt/airflow/dags/CreateDagWithPythonOperator.py                           1           0  0.10s           2022-07-31T21:06:52
+/opt/airflow/dags/CreateDagWithSimpleEcho.py                               1           0  0.10s           2022-07-31T21:06:52
+/opt/airflow/dags/DAGWithPythonDependencies.py                             1           0  0.12s           2022-07-31T21:06:41
+================================================================================
+[2022-07-31 21:07:41,487] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/podcast_summary.py                                       1           0  0.12s           2022-07-31T21:07:27
+/opt/airflow/dags/DAGWithPostgresOperator.py                               1           0  0.16s           2022-07-31T21:07:21
+/opt/airflow/dags/DagWithCronExpression.py                                 1           0  0.14s           2022-07-31T21:07:21
+/opt/airflow/dags/DagWithTaskflowApi.py                                    1           0  0.11s           2022-07-31T21:07:27
+/opt/airflow/dags/first_pipeline.py                                        1           0  0.11s           2022-07-31T21:07:27
+/opt/airflow/dags/DagWithCatchupAndBackfill.py                             1           0  0.10s           2022-07-31T21:07:23
+/opt/airflow/dags/CreateDagWithPythonOperator.py                           1           0  0.09s           2022-07-31T21:07:23
+/opt/airflow/dags/CreateDagWithSimpleEcho.py                               1           0  0.09s           2022-07-31T21:07:23
+/opt/airflow/dags/DAGWithPythonDependencies.py                             1           0  0.19s           2022-07-31T21:07:12
+================================================================================
+[2022-07-31 21:08:12,052] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/podcast_summary.py                                       1           0  0.13s           2022-07-31T21:07:58
+/opt/airflow/dags/DAGWithPostgresOperator.py                               1           0  0.10s           2022-07-31T21:07:51
+/opt/airflow/dags/DagWithCronExpression.py                                 1           0  0.10s           2022-07-31T21:07:51
+/opt/airflow/dags/DagWithTaskflowApi.py                                    1           0  0.12s           2022-07-31T21:07:57
+/opt/airflow/dags/first_pipeline.py                                        1           0  0.09s           2022-07-31T21:07:58
+/opt/airflow/dags/DagWithCatchupAndBackfill.py                             1           0  0.15s           2022-07-31T21:07:53
+/opt/airflow/dags/CreateDagWithPythonOperator.py                           1           0  0.11s           2022-07-31T21:07:53
+/opt/airflow/dags/CreateDagWithSimpleEcho.py                               1           0  0.15s           2022-07-31T21:07:53
+/opt/airflow/dags/DAGWithPythonDependencies.py                             1           0  0.11s           2022-07-31T21:07:42
+================================================================================
+[2022-07-31 21:08:42,570] {manager.py:803} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                         PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run
+------------------------------------------------  -----  ---------  --------  ----------  --------------  -------------------
+/opt/airflow/dags/podcast_summary.py                                       1           0  0.17s           2022-07-31T21:08:28
+/opt/airflow/dags/DAGWithPostgresOperator.py                               1           0  0.11s           2022-07-31T21:08:22
+/opt/airflow/dags/DagWithCronExpression.py                                 1           0  0.09s           2022-07-31T21:08:22
+/opt/airflow/dags/DagWithTaskflowApi.py                                    1           0  0.12s           2022-07-31T21:08:28
+/opt/airflow/dags/first_pipeline.py                                        1           0  0.10s           2022-07-31T21:08:28
+/opt/airflow/dags/DagWithCatchupAndBackfill.py                             1           0  0.10s           2022-07-31T21:08:24
+/opt/airflow/dags/CreateDagWithPythonOperator.py                           1           0  0.09s           2022-07-31T21:08:24
+/opt/airflow/dags/CreateDagWithSimpleEcho.py                               1           0  0.10s           2022-07-31T21:08:24
+/opt/airflow/dags/DAGWithPythonDependencies.py                             1           0  0.09s           2022-07-31T21:08:13
+================================================================================
