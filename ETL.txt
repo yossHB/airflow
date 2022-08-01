@@ -2,3 +2,24 @@
 
 - https://gtoonstra.github.io/etl-with-airflow/principles.html
 
+- Ad hoc, it typically signifies a solution for a specific purpose, problem, or task rather than a generalized solution adaptable to collateral instances.
+
+- airflow,  meditated philosophy on how ETL jobs should be structured. so, that going to enable  airflow to parallelize jobs, schedule them appropriately with dependencies and historically reprocess data when needed.
+
+- Understand SLA’s and alerts: Service Level Agreements can be used to detect long running task instances and let airflow take further action. By default, airflow will email the missed SLA’s and these can be inspected further from the web server. 
+
+- Parameterize subflows and dynamically run tasks: it is possible to dynamically create tasks or even complete dags.
+
+- airflow collect the metadata (manage logs, job duration, landing times) in order to analyze problems 
+
+- data quality management
+    - accuracy
+    - completeness
+    - relevancy
+    - validity
+    - timeliness
+    - consistency
+
+- Datavault Look into data lakes and data vault and develop a strategy to rebuild your data warehouse from scratch on demand.
+
+
